@@ -261,6 +261,7 @@ class ObjectValue(Label):
         new.stores_text_in_cache = self.stores_text_in_cache
         new.expression = self.expression
         new.on_expression_error = self.on_expression_error
+        new.get_text = self.get_text
 
         return new
 
